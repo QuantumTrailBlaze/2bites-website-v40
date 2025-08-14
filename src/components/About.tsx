@@ -1,5 +1,3 @@
-// --- START OF FILE src/components/About.tsx ---
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -45,7 +43,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
     >
       <div className="container mx-auto px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-12 lg:mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary dark:text-green-400">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-secondary dark:text-green-400">
             {t('aboutSection.title')}
           </h2>
           <p className="text-lg text-gray-700 dark:text-gray-300 font-sans leading-relaxed animate-fade-in-up animation-delay-400">
@@ -65,7 +63,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
                   {React.cloneElement(benefit.icon, { size: 28, className: "text-primary dark:text-green-400" })}
                 </div>
                 <div>
-                  <h3 className="text-xl font-serif font-bold text-primary mb-1.5">{benefit.title}</h3>
+                  <h3 className="text-xl font-serif font-bold text-secondary mb-1.5">{benefit.title}</h3>
                   {benefit.texts.map((text, idx) => (
                     <p key={idx} className="text-gray-600 dark:text-gray-400 font-sans leading-relaxed mt-1 first:mt-0">
                       {text}
@@ -108,4 +106,3 @@ const About: React.FC<AboutProps> = ({ className }) => {
 };
 
 export default About;
-// --- END OF FILE src/components/About.tsx ---
