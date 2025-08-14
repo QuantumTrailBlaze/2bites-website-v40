@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <span
               onClick={(e) => handleScrollToSection('home', e)}
-              className="inline-block text-2xl font-serif font-bold text-primary hover:opacity-80 transition-opacity cursor-pointer"
+              className="inline-block text-2xl font-serif font-bold text-secondary hover:opacity-80 transition-opacity cursor-pointer"
             >
               2bites company
             </span>
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-primary tracking-tight">{t('footer.navTitle')}</h3>
+            <h3 className="text-lg font-semibold text-secondary tracking-tight">{t('footer.navTitle')}</h3>
             <ul className="space-y-2.5">
               {navLinks.map((link) => (
                 <li key={link.label}>
@@ -83,7 +83,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-primary tracking-tight">{t('footer.contactTitle')}</h3>
+            <h3 className="text-lg font-semibold text-secondary tracking-tight">{t('footer.contactTitle')}</h3>
             <ul className="space-y-2.5 text-sm text-[#5C5C5C]">
               <li>
                 <a href="mailto:info@2bitesco.com" className="hover:text-primary transition-colors">
