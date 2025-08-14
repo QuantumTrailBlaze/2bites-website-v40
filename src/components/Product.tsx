@@ -51,7 +51,7 @@ export default function ProductSection() {
   return (
     <section id="products" className="py-16 bg-gray-50 dark:bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 text-center mb-12">
-        <h2 className="text-3xl font-serif font-bold text-hero-text">
+        <h2 className="text-3xl font-serif font-bold text-secondary">
           {t('productsSection.title')}
         </h2>
         <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 font-sans">

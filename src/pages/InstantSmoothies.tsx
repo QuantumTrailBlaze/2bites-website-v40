@@ -1,5 +1,3 @@
-// --- START OF FILE src/pages/InstantSmoothies.tsx ---
-
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -112,7 +110,7 @@ const InstantSmoothies: React.FC = () => {
           </section>
           
           <section className="py-16 md:py-20 border-t border-border/20 animate-fade-in-up">
-            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-center text-primary mb-12 md:mb-16">
+            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-center text-secondary mb-12 md:mb-16">
               {t('instantSmoothiesPage.productsTitle')}
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -126,7 +124,7 @@ const InstantSmoothies: React.FC = () => {
           </section>
 
           <section className="py-16 md:py-20 border-t border-border/20 animate-fade-in-up animation-delay-200">
-            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-center text-primary mb-12 md:mb-16">
+            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-center text-secondary mb-12 md:mb-16">
               {t('instantSmoothiesPage.benefitsTitle')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 max-w-4xl mx-auto">
@@ -162,7 +160,7 @@ const InstantSmoothies: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex flex-col items-center text-center animate-fade-in-up animation-delay-500">
-                  <h2 className="text-3xl sm:text-4xl font-serif font-bold text-primary mb-4 md:mb-6">
+                  <h2 className="text-3xl sm:text-4xl font-serif font-bold text-secondary mb-4 md:mb-6">
                     {t('instantSmoothiesPage.inspiration.title')}
                   </h2>
                   <p className="text-base sm:text-lg text-foreground/80 leading-relaxed mb-6 md:mb-8 max-w-md">
@@ -197,4 +195,3 @@ const InstantSmoothies: React.FC = () => {
 };
 
 export default InstantSmoothies;
-// --- END OF FILE src/pages/InstantSmoothies.tsx ---
