@@ -1,5 +1,3 @@
-// --- START OF FILE src/components/HowItWorks.tsx ---
-
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import FadeIn from '@/components/animations/FadeIn';
@@ -78,7 +76,7 @@ const HowItWorks: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <FadeIn delay={100}>
           <div className="max-w-7xl mx-auto px-4 text-center mb-6 md:mb-8">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary dark:text-green-400">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-secondary">
               {t('howItWorksSection.mainTitle')}
             </h2>
             <p className="mt-3 text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
@@ -100,7 +98,7 @@ const HowItWorks: React.FC = () => {
                 <h3 className="text-xl md:text-2xl font-serif font-bold text-accent dark:text-green-500 mb-2">
                   {phase.phaseNumber}
                 </h3>
-                <h4 className="text-base md:text-lg font-serif font-bold text-primary dark:text-green-300 uppercase tracking-wider mb-3">
+                <h4 className="text-base md:text-lg font-serif font-bold text-secondary uppercase tracking-wider mb-3">
                   {phase.title}
                 </h4>
                 <p className="font-sans text-sm text-gray-700 dark:text-gray-400 leading-relaxed">
@@ -114,7 +112,7 @@ const HowItWorks: React.FC = () => {
         <div className="mt-8 md:mt-12 pt-4 md:pt-6">
           <FadeIn delay={benefitsTitleDelay}>
             <div className="text-center mb-6 md:mb-10">
-              <h3 className="text-2xl md:text-3xl font-serif font-bold text-primary dark:text-green-400 mb-3">
+              <h3 className="text-2xl md:text-3xl font-serif font-bold text-secondary mb-3">
                 {t('howItWorksSection.benefitsTitle')}
               </h3>
               <p className="text-md md:text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
@@ -133,7 +131,7 @@ const HowItWorks: React.FC = () => {
                     className="w-24 h-24 object-contain mb-4"
                     loading="lazy"
                   />
-                  <h4 className="text-xl font-serif font-bold text-primary dark:text-green-300 mb-2">
+                  <h4 className="text-xl font-serif font-bold text-secondary mb-2">
                     {benefit.title}
                   </h4>
                   <p className="font-sans text-sm text-gray-700 dark:text-gray-400 leading-relaxed">
@@ -150,4 +148,3 @@ const HowItWorks: React.FC = () => {
 };
 
 export default HowItWorks;
-// --- END OF FILE src/components/HowItWorks.tsx ---
