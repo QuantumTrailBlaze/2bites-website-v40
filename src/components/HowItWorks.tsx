@@ -95,7 +95,7 @@ const HowItWorks: React.FC = () => {
                   className="w-24 h-24 md:w-28 md:h-28 object-contain mb-6 rounded-lg"
                   loading="lazy"
                 />
-                <h3 className="text-xl md:text-2xl font-serif font-bold text-accent dark:text-green-500 mb-2">
+                <h3 className="text-xl md:text-2xl font-serif font-bold text-primary mb-2">
                   {phase.phaseNumber}
                 </h3>
                 <h4 className="text-base md:text-lg font-serif font-bold text-secondary uppercase tracking-wider mb-3">
