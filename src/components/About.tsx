@@ -60,7 +60,7 @@ const About: React.FC<AboutProps> = ({ className }) => {
                 style={{ animationDelay: `${600 + index * 150}ms` }}
               >
                 <div className="flex-shrink-0 w-12 h-12 bg-primary/10 dark:bg-primary/20 rounded-lg flex items-center justify-center">
-                  {React.cloneElement(benefit.icon, { size: 28, className: "text-primary dark:text-green-400" })}
+                  {React.cloneElement(benefit.icon, { size: 28, className: "text-secondary dark:text-green-700" })}
                 </div>
                 <div>
                   <h3 className="text-xl font-serif font-bold text-secondary mb-1.5">{benefit.title}</h3>
