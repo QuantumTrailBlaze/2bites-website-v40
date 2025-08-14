@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label={t('footer.instagramAriaLabel')}
-                className="inline-block text-primary hover:opacity-80 transition-opacity"
+                className="inline-block text-secondary hover:opacity-80 transition-opacity"
               >
                 <Instagram className="w-6 h-6" />
               </a>

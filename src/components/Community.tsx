@@ -46,7 +46,7 @@ const Community: React.FC<CommunityProps> = ({ className }) => {
           <TestimonialAndPhilosophy />
 
           <div className="animate-fade-in-up lg:animation-delay-200">
-            <h2 className="text-3xl font-bold font-serif text-primary mb-4"> 
+            <h2 className="text-3xl font-bold font-serif text-secondary mb-4"> 
               {t('communitySection.title')}
             </h2>
             <p className="text-gray-700 dark:text-gray-400 mb-8 font-sans leading-relaxed">
