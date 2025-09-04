@@ -294,22 +294,22 @@
     "productList": [
       {
         "name": "Smoothie Pink",
-        "description": "• Melocotón, Fresas y Plátano\n• Energía y Antioxidantes\n• Sin gluten, veganos\n• Sin azúcar ni conservantes\n• 40 segundos, sin frío ni mermas",
+        "description": "• Melocotón, Fresas y Plátano\n• Sabor dulce y equilibrado\n• Energía y Antioxidantes\n• Sin gluten, vegano\n• Sin azúcar ni conservantes\n• 40 segundos, sin frío ni mermas",
         "imageAlt": "Paquete de Smoothie Pink con Melocotón, Fresas y Plátano"
       },
       {
         "name": "Smoothie Yellow",
-        "description": "• Mango, Plátano y Piña\n• Sin azúcar, sin conservantes\n• 30 segundos, sin frío ni mermas",
+        "description": "• Mango, Plátano y Piña\n• Sabor tropical y refrescante\n• Energía natural y fibra\n• Sin gluten, vegano\n• Sin azúcar ni conservantes\n• 40 segundos, sin frío ni mermas",
         "imageAlt": "Paquete de Smoothie Yellow con Mango, Plátano y Piña"
       },
       {
         "name": "Smoothie Violet",
-        "description": "• Arándano, Mango y Manzana\n• Sin azúcar, sin conservantes\n• 30 segundos, sin frío ni mermas",
+        "description": "• Arándano, Mango y Manzana\n• Sabor afrutado intenso\n• Antioxidantes y Vitamina C\n• Sin gluten, vegano\n• Sin azúcar ni conservantes\n• 40 segundos, sin frío ni mermas",
         "imageAlt": "Paquete de Smoothie Violet con Arándano, Mango y Manzana"
       },
       {
         "name": "Smoothie Magenta",
-        "description": "• Cereza ácida, Piña y Plátano\n• Sin azúcar, sin conservantes\n• 30 segundos, sin frío ni mermas",
+        "description": "• Cereza ácida, Piña y Plátano\n• Sabor vibrante y exótico\n• Refuerzo antioxidante\n• Sin gluten, vegano\n• Sin azúcar ni conservantes\n• 40 segundos, sin frío ni mermas",
         "imageAlt": "Paquete de Smoothie Magenta con Cereza ácida, Piña y Plátano"
       }
     ],
