@@ -290,22 +290,22 @@
     "productList": [
       {
         "name": "Smoothie Pink",
-        "description": "• Préssec, Maduixes i Plàtan\n• Sense sucre, sense conservants\n• 30 segons, sense fred ni minves",
+        "description": "• Préssec, Maduixes i Plàtan\n• Sabor dolç i equilibrat\n• Energia i antioxidants\n• Sense gluten, vegà\n• Sense sucre ni conservants\n• 40 segons, sense fred ni minves",
         "imageAlt": "Paquet de Smoothie Pink amb Préssec, Maduixes i Plàtan"
       },
       {
         "name": "Smoothie Yellow",
-        "description": "• Mango, Plàtan i Pinya\n• Sense sucre, sense conservants\n• 30 segons, sense fred ni minves",
+        "description": "• Mango, Plàtan i Pinya\n• Sabor tropical i refrescant\n• Energia natural i fibra\n• Sense gluten, vegà\n• Sense sucre ni conservants\n• 40 segons, sense fred ni minves",
         "imageAlt": "Paquet de Smoothie Yellow amb Mango, Plàtan i Pinya"
       },
       {
         "name": "Smoothie Violet",
-        "description": "• Nabiu, Mango i Poma\n• Sense sucre, sense conservants\n• 30 segons, sense fred ni minves",
+        "description": "• Nabiu, Mango i Poma\n• Sabor afruitat intens\n• Antioxidants i Vitamina C\n• Sense gluten, vegà\n• Sense sucre ni conservants\n• 40 segons, sense fred ni minves",
         "imageAlt": "Paquet de Smoothie Violet amb Nabiu, Mango i Poma"
       },
       {
         "name": "Smoothie Magenta",
-        "description": "• Cirera àcida, Pinya i Plàtan\n• Sense sucre, sense conservants\n• 30 segons, sense fred ni minves",
+        "description": "• Cirera àcida, Pinya i Plàtan\n• Sabor vibrant i exòtic\n• Reforç antioxidant\n• Sense gluten, vegà\n• Sense sucre ni conservants\n• 40 segons, sense fred ni minves",
         "imageAlt": "Paquet de Smoothie Magenta amb Cirera àcida, Pinya i Plàtan"
       }
     ],
